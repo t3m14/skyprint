@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+    <h2 class="title">Найдите, что вам нужно</h2>
+    <div class="product_card">
+        <div class="product_card__favorite">
+            <button class="product_card__favorite-button">
+        </div>
+        <div class="product_card__image">
+            <!-- load image from static  -->
+            <img src="{% static 'images/banner.png' %}" alt="product_1">
+        </div>
+        <div class="product_card__name">
+            <p class="product_card__name-text">Roll-up</p>
+        </div>
+        <div class="prodcut_card__quantity">
+            <p class="product_card__quantity-text">1</p>
+        </div>
+    </div>
